@@ -1,0 +1,58 @@
+/* Căn chỉnh tiêu đề bảng */
+.ant-table-thead > tr > th {
+    background-color: #007acc !important; /* Màu nền header xanh dương */
+    color: white !important; /* Chữ trắng */
+    text-align: center !important; /* Căn giữa tiêu đề */
+    font-weight: bold;
+    border: 1px solid #ccc !important; /* Viền mỏng */
+}
+
+/* Căn chỉnh nội dung cột */
+.ant-table-tbody > tr > td {
+    text-align: center; /* Căn giữa nội dung */
+    border: 1px solid #ddd; /* Viền ô */
+}
+
+/* Dòng xen kẽ có màu khác */
+.ant-table-tbody > tr:nth-child(even) {
+    background-color: #f8f9fa !important; /* Nền nhạt */
+}
+
+/* Dòng khi hover */
+.ant-table-tbody > tr:hover {
+    background-color: #e6f7ff !important; /* Màu hover xanh nhạt */
+}
+
+/* Căn chỉnh pagination */
+.ant-pagination {
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 10px;
+}
+
+.ant-pagination-item-active {
+    background-color: #007acc !important;
+    border-color: #007acc !important;
+}
+
+.ant-pagination-item a {
+    color: black;
+}
+
+.ant-pagination-item-active a {
+    color: white !important;
+}
+
+/* Icon Edit & Delete */
+.edit-icon {
+    color: #1890ff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.delete-icon {
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.site-layout-background {
+    background: #f0f2f5;
+    
+  }
+  
+  .ant-menu-light .ant-menu-item-selected {
+    background-color: #1890ff;
+  }
+  
+  .ant-input-prefix {
+    color: #1890ff;
+  }
