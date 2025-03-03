@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Table, Button, Space, Input, Select, Radio, Tag, message } from 'antd';
 import { EditOutlined, DeleteOutlined, FilterOutlined } from '@ant-design/icons';
@@ -43,8 +42,7 @@ const UserListPage = () => {
   useEffect(() => {
     setLoading(true);
     const users = generateData;  
-    console.log(typeof generateData);
-
+    //console.log(typeof generateData);
     setFilteredUsers(users);
     setLoading(false);
   }, []);
@@ -319,10 +317,6 @@ const UserListPage = () => {
         onDelete={handleDelete}
         user={selectedUser}
         />
-        {/* <UserPermissions
-          visible={permissionsVisible} 
-          onClose={() => setPermissionsVisible(false)} 
-        /> */}
     </div>
   );
 };
